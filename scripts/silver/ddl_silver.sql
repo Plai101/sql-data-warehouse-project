@@ -11,12 +11,12 @@ Script Purpose:
 
 DROP TABLE IF EXISTS silver.crm_cust_info;
 CREATE TABLE silver.crm_cust_info (
-    cst_id 				INT,
-    cst_key 			VARCHAR(50),
-    cst_firstname 		VARCHAR(50),
-    cst_lastname 		VARCHAR(50),
+    cst_id 		INT,
+    cst_key 		VARCHAR(50),
+    cst_firstname 	VARCHAR(50),
+    cst_lastname 	VARCHAR(50),
     cst_material_status VARCHAR(50),
-    cst_gndr 			VARCHAR(50), 
+    cst_gndr 		VARCHAR(50), 
     cst_create_date 	DATE,
     dwh_create_date DATETIME DEFAULT NOW()
 );
@@ -64,9 +64,9 @@ CREATE TABLE silver.erp_loc_a101(
 
 DROP TABLE IF EXISTS silver.erp_px_cat_g1v2;
 CREATE TABLE silver.erp_px_cat_g1v2(
-    id   		VARCHAR(50),
-    cat 		VARCHAR(50),
-    subcat 		VARCHAR(50),
+    id   	VARCHAR(50),
+    cat 	VARCHAR(50),
+    subcat 	VARCHAR(50),
     maintenance VARCHAR(50),
     dwh_create_date DATETIME DEFAULT NOW() 
 );
