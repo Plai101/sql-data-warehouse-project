@@ -11,13 +11,13 @@ Script Purpose:
 
 DROP TABLE IF EXISTS bronze.crm_cust_info;
 CREATE TABLE bronze.crm_cust_info (
-    cst_id 				      VARCHAR(50),
-    cst_key 			      VARCHAR(50),
-    cst_firstname 		  VARCHAR(50),
-    cst_lastname 		    VARCHAR(50),
+    cst_id 		VARCHAR(50),
+    cst_key 		VARCHAR(50),
+    cst_firstname 	VARCHAR(50),
+    cst_lastname 	VARCHAR(50),
     cst_material_status VARCHAR(50),
-    cst_gndr 			      VARCHAR(50),
-    cst_create_date 	  VARCHAR(50)
+    cst_gndr 		VARCHAR(50),
+    cst_create_date 	VARCHAR(50)
 );
 
 DROP TABLE IF EXISTS bronze.crm_prd_info;
@@ -59,8 +59,8 @@ CREATE TABLE bronze.erp_loc_a101(
 
 DROP TABLE IF EXISTS bronze.erp_px_cat_g1v2;
 CREATE TABLE bronze.erp_px_cat_g1v2(
-    id   		VARCHAR(50),
-    cat 		VARCHAR(50),
-    subcat 		VARCHAR(50),
+    id   	VARCHAR(50),
+    cat 	VARCHAR(50),
+    subcat 	VARCHAR(50),
     maintenance VARCHAR(50)
 );
