@@ -10,9 +10,9 @@ Script Purpose:
 =====================================================================
 */
 
--- ============================
--- Load CRM Tables into Silver
--- ============================
+# ============================
+# Load CRM Tables into Silver
+# ============================
 
 TRUNCATE TABLE silver.crm_cust_info;
 INSERT INTO silver.crm_cust_info(cst_id, cst_key, cst_firstname, cst_lastname, cst_material_status, cst_gndr, cst_create_date)
@@ -108,9 +108,9 @@ SELECT
   fixed_price AS sls_price
 FROM cleaned_data;
 
--- ============================
--- Load ERP Tables into Silver
--- ============================
+# ============================
+# Load ERP Tables into Silver
+# ============================
 
 TRUNCATE TABLE silver.erp_cust_az12;
 INSERT INTO silver.erp_cust_az12(cid, bdate, gen)
