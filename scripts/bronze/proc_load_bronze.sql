@@ -10,9 +10,9 @@ Script Purpose:
 =====================================================================
 */
 
--- ============================
--- Load CRM Tables into Bronze
--- ============================
+# =============================================================
+# Load CRM Tables into Bronze
+# =============================================================
 
 TRUNCATE TABLE bronze.crm_cust_info;
 LOAD DATA INFILE 'C:/Users/admin/Desktop/sql-data-warehouse-project/sql-data-warehouse-project/datasets/source_crm/cust_info.csv'
@@ -35,9 +35,9 @@ FIELDS TERMINATED BY ','
 OPTIONALLY ENCLOSED BY '"'
 IGNORE 1 LINES;
 
--- ============================
--- Load ERP Tables into Bronze
--- ============================
+# =============================================================
+# Load ERP Tables into Bronze
+# =============================================================
 
 TRUNCATE TABLE bronze.erp_cust_az12;
 LOAD DATA INFILE 'C:/Users/admin/Desktop/sql-data-warehouse-project/sql-data-warehouse-project/datasets/source_erp/CUST_AZ12.csv'
