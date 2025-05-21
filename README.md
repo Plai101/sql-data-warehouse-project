@@ -81,6 +81,6 @@ data-warehouse-project/
 This project is licensed under the [MIT License](LICENSE). You are free to use, modify, and share this project with proper attribution.
 
 ## About Me 👋
-Hi there! I’m Sirapop Boonmun, but feel free to call me Plai. I’m an engineer specializing in Operation Risk Management with a strong passion for data analytics. I love uncovering valuable insights from data and am always eager to learn new tools and techniques to enhance my skills.
+Hi! I’m Sirapop (Plai), an engineer with a strong passion for data analytics. I specialize in transforming raw data into actionable insights using tools like SQL, Python, and Power BI. I’m eager to grow as a data analyst and thrive on solving real-world problems through data.
  
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sirapop-boonmun-b7a28922a/)
