@@ -28,9 +28,9 @@ CREATE TABLE silver.crm_prd_info(
 	prd_key    VARCHAR(50),
 	prd_nm     VARCHAR(50),
 	prd_cost   INT,
-	pdr_line   VARCHAR(50),
-	pdr_start  DATETIME,
-	pdr_end_dt DATETIME,
+	prd_line   VARCHAR(50),
+	prd_start  DATETIME,
+	prd_end_dt DATETIME,
     dwh_create_date DATETIME DEFAULT NOW()
 );
 
