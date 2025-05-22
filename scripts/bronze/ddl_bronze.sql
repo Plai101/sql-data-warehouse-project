@@ -26,9 +26,9 @@ CREATE TABLE bronze.crm_prd_info(
 	prd_key    VARCHAR(50),
 	prd_nm     VARCHAR(50),
 	prd_cost   VARCHAR(50),
-	pdr_line   VARCHAR(50),
-	pdr_start  VARCHAR(50),
-	pdr_end_dt VARCHAR(50)
+	prd_line   VARCHAR(50),
+	prd_start_dt  VARCHAR(50),
+	prd_end_dt VARCHAR(50)
 );
 
 DROP TABLE IF EXISTS bronze.crm_sales_details;
