@@ -29,7 +29,7 @@ CASE WHEN UPPER(TRIM(cst_gndr)) = 'F' THEN 'FEMALE'
 	 WHEN UPPER(TRIM(cst_gndr)) = 'M' THEN 'MALE'
 	 ELSE 'n/a'
 END cst_gndr,
-cst_create_date
+STR_TO_DATE(TRIM(REPLACE(REPLACE(REPLACE(cst_create_date, '\r', ''), '\n', ''), '\t', '')), '%Y-%m-%d')
 FROM(
 	SELECT
 	*,
